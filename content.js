@@ -13,12 +13,12 @@ const months = [
   "December"
 ];
 
-const title = "";
-const DATE = "";
-const date = "";
-const pub = "";
+let title = "";
+let DATE = "";
+let date = "";
+let pub = "";
 const url = window.location.href;
-const author = "";
+let author = "";
 
 const lookupTable = {
   "www.bbc.com":
