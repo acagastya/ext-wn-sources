@@ -1,0 +1,12 @@
+{
+  "name": "wn-sources",
+  "version": "0.1",
+  "description": "Generate sources template for Wikinews bibliography",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
